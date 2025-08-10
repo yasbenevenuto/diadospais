@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 234, 234);
+    color: #17313F;
+    font-family: "Inter", sans-serif;
+}
+
+/* MAIN ----------------------------------------------------------------------------------------------------------- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* MAIN INSIDE----------------------------------------------------------------------------------------------------------- */
+#main {
+    background-color: #FCFEFD;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #17313f31;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* DIV A ----------------------------------------------------------------------------------------------------------- */
+h1 {
+    color: #E60000;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* DIV C ----------------------------------------------------------------------------------------------------------- */
+button {
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#condicao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#butSim {
+    background-color: rgb(15, 203, 15);
+    box-shadow: 0px 0px 10px rgba(15, 203, 15, 0.5);
+}
+
+#butNao {
+    background-color: #E60000;
+    box-shadow: 0px 0px 10px #e600002d;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* FOOTER E HEADER----------------------------------------------------------------------------------------------------------- */
+header {
+    background-color: #17313F;
+    height: 10px;
+}
+footer {
+    background-color: #17313F;
+    height: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}

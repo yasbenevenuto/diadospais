@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(234, 234, 234);
+    color: #17313F;
+     font-family: "Inter", sans-serif;
+}
+
+/* HEADER --------------------------------------------------------------------------------------------------- */ 
+#title {
+    font-size: large;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px; 
+    margin-left: 520px;
+    padding: 10px;
+}
+#botao {
+    align-self: center;
+    margin-left: 40px;
+}
+#voltar {
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    background-color:#E60000;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+
+}
+header {
+    border-bottom: 1px solid white;
+    display: flex;
+    background-color: #FCFEFD;
+    border-top: 10px solid #17313F; 
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* MAIN -------------------------------------------------------------------------------------------------- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+.video-container {
+    background-image: url('assets/coracao.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px; 
+    display: inline-block; 
+    border-radius: 20px; 
+}
+
+p {
+    width: 500px;
+    margin-top: 5px;
+}
+#p {
+    color:#E60000;
+    font-size: smaller;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+}
+
+#cliqueAquiDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+#cliqueAqui {
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:#17313F; 
+    border: none;
+    box-shadow: 0px 0px 5px #17313f9a; 
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+}
+#instrucoes {
+    font-size: x-small;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* FOOTER --------------------------------------------------------------------------------------------------- */
+footer {
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid #17313F; 
+
+}
